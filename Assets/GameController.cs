@@ -20,67 +20,67 @@ public class GameController : MonoBehaviour
 
     public void SwitchChoice()
     {
-        SceneManager.LoadScene(16);
+        SceneManager.LoadScene(3);
     }
 
     public void SwitchIntro1()
     {
-        SceneManager.LoadScene(17);
+        SceneManager.LoadScene(4);
     }
 
     public void SwitchSelect1()
     {
-        SceneManager.LoadScene(18);
+        SceneManager.LoadScene(10);
     }
 
     public void SwitchIntro2()
     {
-        SceneManager.LoadScene(19);
+        SceneManager.LoadScene(5);
     }
 
     public void SwitchSelect2()
     {
-        SceneManager.LoadScene(20);
+        SceneManager.LoadScene(11);
     }
 
     public void SwitchIntro3()
     {
-        SceneManager.LoadScene(21);
+        SceneManager.LoadScene(6);
     }
 
     public void SwitchSelect3()
     {
-        SceneManager.LoadScene(22);
+        SceneManager.LoadScene(12);
     }
 
     public void SwitchIntro4()
     {
-        SceneManager.LoadScene(23);
+        SceneManager.LoadScene(7);
     }
 
     public void SwitchSelect4()
     {
-        SceneManager.LoadScene(24);
+        SceneManager.LoadScene(13);
     }
 
     public void SwitchIntro5()
     {
-        SceneManager.LoadScene(25);
+        SceneManager.LoadScene(8);
     }
 
     public void SwitchSelect5()
     {
-        SceneManager.LoadScene(26);
+        SceneManager.LoadScene(14);
     }
 
     public void SwitchIntro6()
     {
-        SceneManager.LoadScene(27);
+        SceneManager.LoadScene(9);
     }
 
     public void SwitchSelect6()
     {
-        SceneManager.LoadScene(28);
+        SceneManager.LoadScene(15);
     }
 
     public void SwitchMain()
