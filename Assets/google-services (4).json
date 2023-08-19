@@ -33,6 +33,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348480141331:android:aa8ce286092b1c153de7e6",
+        "android_client_info": {
+          "package_name": "com.samyam.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348480141331-li3fhbg8hmiib74m58ae9m23v34c9214.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHHX1t1GqyjbF-rEdTMHJxtQkMU3SMNhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348480141331-li3fhbg8hmiib74m58ae9m23v34c9214.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"
