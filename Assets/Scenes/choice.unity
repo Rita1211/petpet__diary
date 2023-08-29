@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 209184396}
   - component: {fileID: 209184395}
   - component: {fileID: 209184394}
+  - component: {fileID: 209184397}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -297,7 +298,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 881215754}
+      - m_Target: {fileID: 881215755}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
         m_MethodName: SwitchIntro2
         m_Mode: 1
@@ -347,6 +348,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209184392}
   m_CullTransparentMesh: 1
+--- !u!114 &209184397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209184392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: dog2
 --- !u!1 &213708737
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,6 +668,7 @@ GameObject:
   - component: {fileID: 418532476}
   - component: {fileID: 418532475}
   - component: {fileID: 418532474}
+  - component: {fileID: 418532477}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -726,9 +741,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 881215754}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchIntro3
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -775,6 +790,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 418532472}
   m_CullTransparentMesh: 1
+--- !u!114 &418532477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418532472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: dog3
 --- !u!1 &460198803
 GameObject:
   m_ObjectHideFlags: 0
@@ -787,6 +815,7 @@ GameObject:
   - component: {fileID: 460198807}
   - component: {fileID: 460198806}
   - component: {fileID: 460198805}
+  - component: {fileID: 460198808}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -859,9 +888,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 881215754}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchIntro1
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -908,6 +937,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460198803}
   m_CullTransparentMesh: 1
+--- !u!114 &460198808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460198803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: dog1
 --- !u!1 &520355510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,8 +1064,8 @@ GameObject:
   - component: {fileID: 881215753}
   - component: {fileID: 881215752}
   - component: {fileID: 881215751}
-  - component: {fileID: 881215755}
   - component: {fileID: 881215754}
+  - component: {fileID: 881215755}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1106,9 +1148,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 881215750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  selectedAnimal: dog1
 --- !u!114 &881215755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1118,30 +1161,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 881215750}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
 --- !u!1 &900029176
 GameObject:
   m_ObjectHideFlags: 0
@@ -1154,6 +1176,7 @@ GameObject:
   - component: {fileID: 900029180}
   - component: {fileID: 900029179}
   - component: {fileID: 900029178}
+  - component: {fileID: 900029181}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1225,9 +1248,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 881215754}
+      - m_Target: {fileID: 881215750}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchIntro5
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1275,6 +1298,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900029176}
   m_CullTransparentMesh: 1
+--- !u!114 &900029181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900029176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: cat2
 --- !u!1 &922910006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,7 +1389,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1100117912}
   - component: {fileID: 1100117911}
-  - component: {fileID: 1100117913}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -1438,26 +1473,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &1100117913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100117910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1118097582
 GameObject:
   m_ObjectHideFlags: 0
@@ -1999,6 +2014,7 @@ GameObject:
   - component: {fileID: 1456301344}
   - component: {fileID: 1456301343}
   - component: {fileID: 1456301342}
+  - component: {fileID: 1456301345}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2070,9 +2086,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 881215754}
+      - m_Target: {fileID: 881215750}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchIntro4
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2120,6 +2136,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1456301340}
   m_CullTransparentMesh: 1
+--- !u!114 &1456301345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456301340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: cat1
 --- !u!1 &1650815176
 GameObject:
   m_ObjectHideFlags: 0
@@ -2132,6 +2161,7 @@ GameObject:
   - component: {fileID: 1650815180}
   - component: {fileID: 1650815179}
   - component: {fileID: 1650815178}
+  - component: {fileID: 1650815181}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2204,9 +2234,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 881215754}
-        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchIntro6
-        m_Mode: 1
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2253,6 +2283,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1650815176}
   m_CullTransparentMesh: 1
+--- !u!114 &1650815181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1650815176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedAnimal: cat3
 --- !u!1 &1854869577
 GameObject:
   m_ObjectHideFlags: 0

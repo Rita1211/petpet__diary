@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -920,9 +920,8 @@ GameObject:
   - component: {fileID: 984160749}
   - component: {fileID: 984160748}
   - component: {fileID: 984160747}
-  - component: {fileID: 984160751}
   - component: {fileID: 984160750}
-  - component: {fileID: 984160752}
+  - component: {fileID: 984160751}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1017,21 +1016,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 984160746}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &984160752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 984160746}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c2c67cce2a285549b3124429a5aaf02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  selectedAnimal: dog2
 --- !u!1 &1158608225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1468,6 +1456,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324749677}
   m_CullTransparentMesh: 1
+--- !u!1 &1482405282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1482405284}
+  - component: {fileID: 1482405285}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482405284
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482405282}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 347.6823, y: 491.10907, z: -4.2503185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1482405285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482405282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81216e847295a0840a92f130a66e29c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalSelection: {fileID: 984160751}
 --- !u!1 &1632426117
 GameObject:
   m_ObjectHideFlags: 0
