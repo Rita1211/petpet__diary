@@ -88,11 +88,6 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("main");
     }
 
-    public void Switchsignup_login()
-    {
-        SceneManager.LoadScene("signup&login");
-    }
-
     public void Switch0()
     {
         SceneManager.LoadScene("0");
@@ -166,6 +161,11 @@ public class GameController : MonoBehaviour
     public void Switchphoto()
     {
         SceneManager.LoadScene("photo");
+    }
+
+    public void Switchready()
+    {
+        SceneManager.LoadScene("ready");
     }
 
 

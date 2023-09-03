@@ -11,7 +11,7 @@ public class AnimalSelection : MonoBehaviour
     {
         PlayerPrefs.SetString("SelectedAnimal", animalName);
         selectedAnimal = animalName;
-        SceneManager.LoadScene("intro1");
+        Debug.Log("Selected Animal: " + animalName); 
         
     }
 }

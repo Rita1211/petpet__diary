@@ -226,9 +226,8 @@ GameObject:
   - component: {fileID: 209184396}
   - component: {fileID: 209184395}
   - component: {fileID: 209184394}
-  - component: {fileID: 209184397}
   m_Layer: 5
-  m_Name: Button
+  m_Name: dog2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,6 +309,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 881215754}
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: dog2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &209184395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,19 +359,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209184392}
   m_CullTransparentMesh: 1
---- !u!114 &209184397
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209184392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedAnimal: dog2
 --- !u!1 &213708737
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +668,7 @@ GameObject:
   - component: {fileID: 418532474}
   - component: {fileID: 418532477}
   m_Layer: 5
-  m_Name: Button
+  m_Name: dog3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -740,6 +738,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 881215755}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchIntro3
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 881215754}
         m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
         m_MethodName: OnSelectAnimalButtonClicked
@@ -749,7 +759,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: dog3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &418532475
@@ -815,9 +825,8 @@ GameObject:
   - component: {fileID: 460198807}
   - component: {fileID: 460198806}
   - component: {fileID: 460198805}
-  - component: {fileID: 460198808}
   m_Layer: 5
-  m_Name: Button
+  m_Name: dog1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -887,6 +896,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 881215755}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchIntro1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 881215754}
         m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
         m_MethodName: OnSelectAnimalButtonClicked
@@ -896,7 +917,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: dog1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &460198806
@@ -937,19 +958,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 460198803}
   m_CullTransparentMesh: 1
---- !u!114 &460198808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 460198803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd89e2e2daa9f8a45abcc9c0868a8629, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedAnimal: dog1
 --- !u!1 &520355510
 GameObject:
   m_ObjectHideFlags: 0
@@ -1178,7 +1186,7 @@ GameObject:
   - component: {fileID: 900029178}
   - component: {fileID: 900029181}
   m_Layer: 5
-  m_Name: Button
+  m_Name: cat2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1248,9 +1256,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 881215750}
+      - m_Target: {fileID: 881215755}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: SwitchIntro5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1258,6 +1266,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 881215754}
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: cat2
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &900029179
@@ -2016,7 +2036,7 @@ GameObject:
   - component: {fileID: 1456301342}
   - component: {fileID: 1456301345}
   m_Layer: 5
-  m_Name: Button
+  m_Name: cat1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2086,9 +2106,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 881215750}
+      - m_Target: {fileID: 881215755}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: SwitchIntro4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2096,6 +2116,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 881215754}
+        m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
+        m_MethodName: OnSelectAnimalButtonClicked
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: cat1
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1456301343
@@ -2163,7 +2195,7 @@ GameObject:
   - component: {fileID: 1650815178}
   - component: {fileID: 1650815181}
   m_Layer: 5
-  m_Name: Button
+  m_Name: cat3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2233,6 +2265,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 881215755}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchIntro6
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 881215754}
         m_TargetAssemblyTypeName: AnimalSelection, Assembly-CSharp
         m_MethodName: OnSelectAnimalButtonClicked
@@ -2242,7 +2286,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: cat3
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1650815179
