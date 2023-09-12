@@ -31,14 +31,15 @@ public class FoodChange : MonoBehaviour
         }
         countHp();
     }
-    public void minus() {
-        if (hp<=0){
-            hp=0;
+    public void errFood() {
+        if (hp>=maxHp){
+            hp=maxHp;
         }else{
-            hp-=20;
+            hp+=25;
         }
         countHp();
     } 
+    
 
    
 }

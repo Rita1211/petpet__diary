@@ -35,7 +35,15 @@ public class HealthChange : MonoBehaviour
         if (hp<=0){
             hp=0;
         }else{
-            hp-=20;
+            hp-=40;
+        }
+        countHp();
+    } 
+    public void errFood() {
+        if (hp<=0){
+            hp=0;
+        }else{
+            hp-=10;
         }
         countHp();
     } 
