@@ -85,7 +85,7 @@ public class GameController : MonoBehaviour
 
     public void SwitchMain()
     {
-        SceneManager.LoadScene("main");
+        SceneManager.LoadScene("main 1");
     }
 
     public void Switch0()

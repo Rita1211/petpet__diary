@@ -27,7 +27,7 @@ public class HealthChange : MonoBehaviour
         if (hp>=maxHp){
             hp=maxHp;
         }else{
-            hp+=20;
+            hp+=50;
         }
         countHp();
     }

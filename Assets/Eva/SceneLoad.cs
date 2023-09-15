@@ -9,6 +9,10 @@ public class SceneLoad : MonoBehaviour
   {
     SceneManager.LoadScene("main 1");
   }
+   public void LoadSceneCat1()
+  {
+    SceneManager.LoadScene("main 2");
+  }
  /* public void LoadSceneAR()
   {
     SceneManager.LoadScene("SampleScene");
