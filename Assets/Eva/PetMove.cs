@@ -10,7 +10,6 @@ public class PetMove : MonoBehaviour
 
     public int key=0;
     public bool temp =true;
-    public bool isSit=false;
     Animator m_Animator;
     // Start is called before the first frame update
     void Start()
@@ -35,8 +34,8 @@ public class PetMove : MonoBehaviour
                 transform.Rotate(0,1*RotateSpeed*Time.deltaTime,0,Space.Self);
                 break;
             case 2:
-                transform.Translate(0,0,3*MoveSpeed*Time.deltaTime,Space.Self);
-                transform.Rotate(0,3*RotateSpeed*Time.deltaTime,0,Space.Self);
+                transform.Translate(0,0,0.5f*MoveSpeed*Time.deltaTime,Space.Self);
+                transform.Rotate(0,0.5f*RotateSpeed*Time.deltaTime,0,Space.Self);
                 break;
             case 3:
                 //transform.Translate(0,0,1*MoveSpeed*Time.deltaTime,Space.Self);
@@ -81,14 +80,6 @@ public class PetMove : MonoBehaviour
             temp=false;
             //cat is walk
             m_Animator.SetBool("idle",true);
-            /*isSit=true;
-            if(isSit==true) 
-            {
-                 System.Threading.Thread.Sleep(5000);
-                 isSit=false;
-            }*/
-            
-            //System.Threading.Thread.Sleep(5000);
         }
         //換一種走路方式
         key++;
