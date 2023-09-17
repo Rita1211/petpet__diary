@@ -5,12 +5,13 @@ using UnityEngine;
 public class ARisON : MonoBehaviour
 {
     // Start is called before the first frame update
+    public GameObject BGpanel;
     void Strat()
     {
-        gameObject.SetActive(true);
+        BGpanel.SetActive(false);
     }
     public void Click()
     {
-        gameObject.SetActive(false);
+        BGpanel.SetActive(!BGpanel.activeSelf);
     }
 }
