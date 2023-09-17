@@ -54,6 +54,12 @@ public class SpeechRecognition : MonoBehaviour
     private void StopRecording()
     {
         var position = Microphone.GetPosition(null);
+        if (position < 0 || position >= clip.samples)
+        {
+            // åœ¨é€™è£¡è™•ç†éŒ¯èª¤ï¼Œä¾‹å¦‚è¨˜éŒ„éŒ¯èª¤æ¶ˆæ¯
+            Debug.LogError("Invalid audio data received.");
+            return;
+        }
         Microphone.End(null);
         var samples = new float[position * clip.channels];
         clip.GetData(samples, 0);
@@ -65,26 +71,26 @@ public class SpeechRecognition : MonoBehaviour
     private void SendRecording()
     {
         HuggingFaceAPI.AutomaticSpeechRecognition(bytes, response => {
-            if (response.Contains("§¤¤U"))
+            if (response.Contains("ï¿½ï¿½ï¿½U"))
             {
-                animator.SetTrigger("SitTrigger"); // ¼½©ñ "§¤¤U" °Êµe
+                animator.SetTrigger("SitTrigger"); // ï¿½ï¿½ï¿½ï¿½ "ï¿½ï¿½ï¿½U" ï¿½Êµe
             }
-            else if (response.Contains("¿ß¿ß"))
+            else if (response.Contains("ï¿½ß¿ï¿½"))
             {
                 kittySource.PlayOneShot(meowSound);
-                animator.SetTrigger("ShakeHeadTrigger"); // ¼½©ñ "·nÀY" °Êµe
+                animator.SetTrigger("ShakeHeadTrigger"); // ï¿½ï¿½ï¿½ï¿½ "ï¿½nï¿½Y" ï¿½Êµe
             }
-            else if(response.Contains("¹L¨Ó"))
+            else if(response.Contains("ï¿½Lï¿½ï¿½"))
             {
                 kittySource.PlayOneShot(LookAtMeSound);
                 animator.SetTrigger("WalkTrigger");
             }
             else
             {
-                animator.SetTrigger("ShakeHeadTrigger"); // ¦pªGµLªk¿ëÃÑ¡A¤]°õ¦æ "·nÀY" °Êµe
+                animator.SetTrigger("ShakeHeadTrigger"); // ï¿½pï¿½Gï¿½Lï¿½kï¿½ï¿½ï¿½Ñ¡Aï¿½]ï¿½ï¿½ï¿½ï¿½ "ï¿½nï¿½Y" ï¿½Êµe
             }
         }, error => {
-            // ¦b¿ù»~±¡ªp¤U¡A°õ¦æ "·nÀY" °Êµe
+            // ï¿½bï¿½ï¿½ï¿½~ï¿½ï¿½ï¿½pï¿½Uï¿½Aï¿½ï¿½ï¿½ï¿½ "ï¿½nï¿½Y" ï¿½Êµe
             animator.SetTrigger("ShakeHeadTrigger");
         });
     }

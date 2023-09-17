@@ -13,11 +13,6 @@ public class SceneLoad : MonoBehaviour
   {
     SceneManager.LoadScene("main 2");
   }
-  public void LoadSceneMain3()
-  {
-    SceneManager.LoadScene("main 3");
-  }
-  
  /* public void LoadSceneAR()
   {
     SceneManager.LoadScene("SampleScene");
