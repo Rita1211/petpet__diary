@@ -37,17 +37,19 @@ public class SpeechRecognition : MonoBehaviour
         if (!recording)
         {
             StartRecording();
+            startStopButton.interactable = false; // 禁用按鈕
         }
         else
         {
             StopRecording();
+            startStopButton.interactable = true; // 啟用按鈕
         }
     }
 
     private void StartRecording()
     {
         startStopButton.interactable = false;
-        clip = Microphone.Start(null, false, 10, 44100);
+        clip = Microphone.Start(null, false, 5, 44100);
         recording = true;
     }
 
@@ -71,16 +73,16 @@ public class SpeechRecognition : MonoBehaviour
     private void SendRecording()
     {
         HuggingFaceAPI.AutomaticSpeechRecognition(bytes, response => {
-            if (response.Contains("���U"))
+            if (response.Contains("坐下"))
             {
                 animator.SetTrigger("SitTrigger"); // ���� "���U" �ʵe
             }
-            else if (response.Contains("�߿�"))
+            else if (response.Contains("貓貓"))
             {
                 kittySource.PlayOneShot(meowSound);
                 animator.SetTrigger("ShakeHeadTrigger"); // ���� "�n�Y" �ʵe
             }
-            else if(response.Contains("�L��"))
+            else if(response.Contains("過來"))
             {
                 kittySource.PlayOneShot(LookAtMeSound);
                 animator.SetTrigger("WalkTrigger");

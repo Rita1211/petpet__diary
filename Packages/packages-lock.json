@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.huggingface.api": {
-      "version": "file:D:/下載D/unity-api-main",
+      "version": "file:C:/Users/user/Desktop/unity-api-main",
       "depth": 0,
       "source": "local",
       "dependencies": {
