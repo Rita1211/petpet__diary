@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Windows.Speech;
+using UnityEngine.Windows;
 using UnityEngine.UI;
 
 public class Speech2 : MonoBehaviour
@@ -21,11 +22,11 @@ public class Speech2 : MonoBehaviour
 
     private void Start()
     {
-        actions.Add("¿ß¿ß", CallOut);
-        actions.Add("ºÃ´b", Confuse);
-        actions.Add("§¤¤U", Sit);
-        actions.Add("¸õ", Jump);
-        actions.Add("ºNºN", Caress);
+        actions.Add("ï¿½ß¿ï¿½", CallOut);
+        actions.Add("ï¿½Ã´b", Confuse);
+        actions.Add("ï¿½ï¿½ï¿½U", Sit);
+        actions.Add("ï¿½ï¿½", Jump);
+        actions.Add("ï¿½Nï¿½N", Caress);
 
 
         keywordRecognizer = new KeywordRecognizer(actions.Keys.ToArray());

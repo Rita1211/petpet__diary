@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3708985, g: 0.3783704, b: 0.35722548, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3381,9 +3381,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1946319814}
+      - m_Target: {fileID: 1946319815}
         m_TargetAssemblyTypeName: SpeechRecognition, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: ToggleRecording
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5129,6 +5129,9 @@ MonoBehaviour:
   kittySource: {fileID: 1946319816}
   meowSound: {fileID: 8300000, guid: 0c55608ccc3126d41a2ccab69678d4c7, type: 3}
   purrrSound: {fileID: 8300000, guid: 0bb4dfe1939f7e04b9b3083c818b0ac9, type: 3}
+  hisssSound: {fileID: 0}
+  LookAtMeSound: {fileID: 0}
+  PooPooSounds: {fileID: 0}
 --- !u!1 &1947104781
 GameObject:
   m_ObjectHideFlags: 0
