@@ -9,6 +9,10 @@ public class SceneLoad : MonoBehaviour
   {
     SceneManager.LoadScene("main 1");
   }
+  public void LoadSceneDogKnow()
+  {
+    SceneManager.LoadScene("knowledge 1");
+  }
    public void LoadSceneCat1()
   {
     SceneManager.LoadScene("main 3");//cat1
@@ -20,6 +24,22 @@ public class SceneLoad : MonoBehaviour
   public void LoadSceneCat3()
   {
     SceneManager.LoadScene("main 3cat3");
+  }
+  public void LoadSceneDog1()
+  {
+    SceneManager.LoadScene("mainDog1 1");
+  }
+  public void LoadSceneDog2()
+  {
+    SceneManager.LoadScene("mainDog2");
+  }
+  public void LoadSceneDog3()
+  {
+    SceneManager.LoadScene("mainDog3");
+  }
+  public void LoadSceneDog0()
+  {
+    SceneManager.LoadScene("mainDog");
   }
   public void LoadSceneSound()
   {

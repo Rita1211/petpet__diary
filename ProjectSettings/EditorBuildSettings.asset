@@ -122,6 +122,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/testMain.unity
     guid: f895e238779b45748ba967fd1d268e0b
+  - enabled: 1
+    path: Assets/Scenes/knowledge 1.unity
+    guid: a60d0ad6778974c4893545d343721c43
+  - enabled: 1
+    path: Assets/Scenes/mainDog1 1.unity
+    guid: 9c361bb8d9ecbca42891fc5d19190053
+  - enabled: 1
+    path: Assets/Scenes/mainDog2.unity
+    guid: 43904822bc8b66448bc561a404c2a993
+  - enabled: 1
+    path: Assets/Scenes/mainDog3.unity
+    guid: f3ab5432c4ed1a840b13ad265aff837b
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
