@@ -11,13 +11,13 @@ public class SceneLoad : MonoBehaviour
   }
   public void LoadSceneDogKnow()
   {
-    SceneManager.LoadScene("knowledge 1");
+    SceneManager.LoadScene("Dogknowledge");
   }
    public void LoadSceneCat1()
   {
-    SceneManager.LoadScene("main 3");//cat1
+    SceneManager.LoadScene("mainCat");//cat1
   }
-  public void LoadSceneCat2()
+ /* public void LoadSceneCat2()
   {
     SceneManager.LoadScene("main 3cat2");
   }
@@ -36,10 +36,18 @@ public class SceneLoad : MonoBehaviour
   public void LoadSceneDog3()
   {
     SceneManager.LoadScene("mainDog3");
-  }
+  }*/
   public void LoadSceneDog0()
   {
     SceneManager.LoadScene("mainDog");
+  }
+  public void LoadSceneDogCamera()
+  {
+    SceneManager.LoadScene("camera 1");
+  }
+  public void LoadSceneDogPhoto()
+  {
+    SceneManager.LoadScene("photo 1");
   }
   public void LoadSceneSound()
   {

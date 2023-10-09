@@ -20,6 +20,7 @@ public class TapDogs : MonoBehaviour
     public GameObject cat1Pref;
     public GameObject cat2Pref;
     public GameObject cat3Pref;
+    public bool opentap;
 
     
     private ARRaycastManager arRaycast;
@@ -63,6 +64,7 @@ public class TapDogs : MonoBehaviour
                 Debug.LogError("Invalid or no selected animal: " + selectedAnimal);
                 break;
         }
+        opentap=true;
     }
 
 
@@ -75,7 +77,7 @@ public class TapDogs : MonoBehaviour
     private void TapObject()
     {
         //判斷是否點擊
-        if(Input.GetKeyDown(KeyCode.Mouse0))
+        if(opentap&&Input.GetKeyDown(KeyCode.Mouse0))
         {
             //儲存點擊座標
             mousePos = Input.mousePosition;
@@ -89,6 +91,8 @@ public class TapDogs : MonoBehaviour
                 Vector3 look = transform.position;
                 look.y=temp.transform.position.y;
                 temp.transform.LookAt(look);
+                opentap=false;
+
             }
             
         }

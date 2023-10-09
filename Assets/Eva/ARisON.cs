@@ -11,6 +11,6 @@ public class ARisON : MonoBehaviour
     }
     public void Click()
     {
-        gameObject.SetActive(false);
+        gameObject.SetActive(!gameObject.activeSelf);
     }
 }
