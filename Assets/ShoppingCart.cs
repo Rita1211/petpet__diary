@@ -7,8 +7,8 @@ using TMPro;
 
 public class ShoppingCart : MonoBehaviour
 {
-    public TMP_Text billText;
-    public TMP_Text totalPriceText;
+    public TextMeshProUGUI billText;
+    public TextMeshProUGUI totalPriceText;
 
     private Dictionary<string, int> cart = new Dictionary<string, int>();
     private float totalPrice = 0;
@@ -21,7 +21,7 @@ public class ShoppingCart : MonoBehaviour
         }
         else
         {
-            cart[itemName] += 1;
+            cart[itemName] = 1;
         }
         totalPrice += price;
         UpdateBill();
@@ -35,7 +35,26 @@ public class ShoppingCart : MonoBehaviour
             bill += item.Key+ " * " + item.Value + "\n";
 
         }
+
+        // 添加 Debug.Log 語句
+    Debug.Log("billText: " + (billText != null ? billText.text : "null"));
+    Debug.Log("totalPriceText: " + (totalPriceText != null ? totalPriceText.text : "null"));
+        // 添加空值檢查
+    if (billText != null)
         billText.text = bill;
-        totalPriceText.text = "$"+ totalPrice.ToString("F2");
+
+    // 添加空值檢查
+    if (totalPriceText != null)
+        totalPriceText.text = "$" + totalPrice.ToString("F2");
     }
+
+    private void Awake()
+{
+    // 確保這兩個 Text 對象在運行時已經被初始化
+    if (billText == null)
+        billText = GetComponent<TextMeshProUGUI>();
+
+    if (totalPriceText == null)
+        totalPriceText = GetComponent<TextMeshProUGUI>();
+}
 }

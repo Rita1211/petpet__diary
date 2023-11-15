@@ -13,6 +13,13 @@ public class ShopItemButton : MonoBehaviour
    
    public void SelectItem()
    {
+        if (ShoppingCart != null)
+    {
         ShoppingCart.AddToCart(itemName, itemPrice);
+    }
+    else
+    {
+        Debug.LogError("ShoppingCart is not assigned!");
+    }
    }
 }

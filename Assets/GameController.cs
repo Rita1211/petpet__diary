@@ -168,5 +168,20 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("ready");
     }
 
+    public void Switchcopy_mainDog()
+    {
+        SceneManager.LoadScene("copy_mainDog");
+    }
+
+    public void Switchbag_dog()
+    {
+        SceneManager.LoadScene("bag_dog");
+    }
+
+    public void Switchcost()
+    {
+        SceneManager.LoadScene("cost");
+    }
+
 
 }
