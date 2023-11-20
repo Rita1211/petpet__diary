@@ -9,17 +9,15 @@ public class ShopItemButton : MonoBehaviour
    public string itemName ;
    public float itemPrice;
 
-   public ShoppingCart ShoppingCart;
+  
    
    public void SelectItem()
    {
-        if (ShoppingCart != null)
-    {
-        ShoppingCart.AddToCart(itemName, itemPrice);
-    }
-    else
-    {
-        Debug.LogError("ShoppingCart is not assigned!");
-    }
+       
+        //ShoppingCart.AddToCart(itemName, itemPrice);
+        // 儲存所選項目和價格
+    PlayerPrefs.SetString("SelectedShopItem", itemName);
+        PlayerPrefs.SetFloat("SelectedShopItemPrice", itemPrice);
+    
    }
 }
