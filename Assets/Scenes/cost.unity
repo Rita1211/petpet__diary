@@ -726,8 +726,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 687821881}
-  - component: {fileID: 687821879}
   - component: {fileID: 687821880}
+  - component: {fileID: 687821882}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -735,20 +735,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &687821879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 687821878}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e30f4fd0acc501f4fa569aca139ad59e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  billText: {fileID: 1968115810}
-  totalPriceText: {fileID: 1579559820}
 --- !u!222 &687821880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -777,6 +763,20 @@ RectTransform:
   m_AnchoredPosition: {x: 1139.6936, y: 973.52997}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &687821882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687821878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30f4fd0acc501f4fa569aca139ad59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  billText: {fileID: 1968115810}
+  totalPriceText: {fileID: 1579559820}
 --- !u!1 &743822997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1933,8 +1933,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 11.0581, y: -20.001}
-  m_SizeDelta: {x: 584.1796, y: 551.34}
+  m_AnchoredPosition: {x: 20.982, y: -20.001}
+  m_SizeDelta: {x: 604.04, y: 551.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1968115809
 CanvasRenderer:
