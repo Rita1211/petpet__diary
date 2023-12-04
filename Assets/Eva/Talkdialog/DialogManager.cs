@@ -17,7 +17,7 @@ public class DialogManager : MonoBehaviour
     public int dialogIndex;
     public Button nextBTN;
     public GameObject optionBTN;//選項按鈕欲置物
-    public GameObject ButtonGroup;//選像按鈕父節點用於自動排列
+    public Transform buttonGroup;//選像按鈕父節點用於自動排列
 
     /// <summary>
     /// 對話文本 依行數分割
@@ -78,19 +78,28 @@ public class DialogManager : MonoBehaviour
         string [] cells = dialogRows[_index].Split(',');
         if(cells[0]=="&")
         {
-            string[] cells = dialogRows[_index].Split(',');
+            cells = dialogRows[_index].Split(',');
             if(cells[0]=="&")
             {
-                GameObject button =Instantiate(optionBTN,ButtonGroup);
+                GameObject button =Instantiate(optionBTN,buttonGroup);
                 //綁定按鈕事件
                 button.GetComponentInChildren<TextMeshPro>().text=cells[3];
-                button.GetComponent<ButtonGroup>().onClick.AddListener();
+                button.GetComponent<Button>().onClick.AddListener(
+                delegate
+                {
+                    OnOptionClick(dialogIndex=int.Parse(cells[4]));
+                });
                 GenerateOption(_index+1);
             }                        
         }        
     }
     public void OnOptionClick(int _id)
     {
-        
+        dialogIndex=_id;
+        ShowDialogRow();
+        for( int i = 0 ;i <buttonGroup.childCount;i++)
+        {
+            Destroy(buttonGroup.GetChild(i).gameObject);
+        }
     }
 }
