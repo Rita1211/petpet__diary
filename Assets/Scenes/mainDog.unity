@@ -916,7 +916,7 @@ GameObject:
   - component: {fileID: 231468801}
   - component: {fileID: 231468800}
   - component: {fileID: 231468799}
-  - component: {fileID: 231468798}
+  - component: {fileID: 231468802}
   m_Layer: 5
   m_Name: "\u6F54\u7259\u9AA8"
   m_TagString: Untagged
@@ -944,18 +944,6 @@ RectTransform:
   m_AnchoredPosition: {x: 80.458, y: 14.172}
   m_SizeDelta: {x: 78.9156, y: 103.22}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &231468798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 231468796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &231468799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +987,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 231468800}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 231468802}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &231468800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1038,6 +1038,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 231468796}
   m_CullTransparentMesh: 1
+--- !u!114 &231468802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231468796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u6F54\u7259\u9AA8"
+  itemPrice: 30
 --- !u!1 &246098351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2329,7 +2343,7 @@ GameObject:
   - component: {fileID: 451915643}
   - component: {fileID: 451915642}
   - component: {fileID: 451915641}
-  - component: {fileID: 451915640}
+  - component: {fileID: 451915644}
   m_Layer: 5
   m_Name: "\u9B5A\u6CB9"
   m_TagString: Untagged
@@ -2357,18 +2371,6 @@ RectTransform:
   m_AnchoredPosition: {x: 165.2, y: 14.509}
   m_SizeDelta: {x: 62.814, y: 87.2877}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &451915640
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451915638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &451915641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2412,7 +2414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 451915642}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 451915644}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &451915642
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2451,6 +2465,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451915638}
   m_CullTransparentMesh: 1
+--- !u!114 &451915644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451915638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u9B5A\u6CB9"
+  itemPrice: 25
 --- !u!1 &462766792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2463,7 +2491,7 @@ GameObject:
   - component: {fileID: 462766797}
   - component: {fileID: 462766796}
   - component: {fileID: 462766795}
-  - component: {fileID: 462766794}
+  - component: {fileID: 462766798}
   m_Layer: 5
   m_Name: "\u8089\u4E7E"
   m_TagString: Untagged
@@ -2491,18 +2519,6 @@ RectTransform:
   m_AnchoredPosition: {x: -85, y: 12.731}
   m_SizeDelta: {x: 101.724, y: 100.3377}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &462766794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462766792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &462766795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2546,7 +2562,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 462766796}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 462766798}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &462766796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2585,6 +2613,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 462766792}
   m_CullTransparentMesh: 1
+--- !u!114 &462766798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462766792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u8089\u4E7E"
+  itemPrice: 15
 --- !u!1 &497147616
 GameObject:
   m_ObjectHideFlags: 0
@@ -3246,7 +3288,7 @@ GameObject:
   - component: {fileID: 583603812}
   - component: {fileID: 583603811}
   - component: {fileID: 583603810}
-  - component: {fileID: 583603809}
+  - component: {fileID: 583603813}
   m_Layer: 5
   m_Name: "\u5A03\u5A03"
   m_TagString: Untagged
@@ -3274,18 +3316,6 @@ RectTransform:
   m_AnchoredPosition: {x: 75.8, y: 15.103}
   m_SizeDelta: {x: 68.6344, y: 93.7614}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &583603809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583603807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &583603810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3329,7 +3359,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583603811}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 583603813}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &583603811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3368,6 +3410,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583603807}
   m_CullTransparentMesh: 1
+--- !u!114 &583603813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583603807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u5A03\u5A03"
+  itemPrice: 10
 --- !u!1 &620494558
 GameObject:
   m_ObjectHideFlags: 0
@@ -4092,6 +4148,7 @@ GameObject:
   - component: {fileID: 910798906}
   - component: {fileID: 910798905}
   - component: {fileID: 910798904}
+  - component: {fileID: 910798907}
   m_Layer: 5
   m_Name: "\u72D7\u7F50\u982D(1)"
   m_TagString: Untagged
@@ -4162,7 +4219,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 910798905}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 910798907}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &910798905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4201,6 +4270,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 910798902}
   m_CullTransparentMesh: 1
+--- !u!114 &910798907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910798902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u72D7\u7F50\u982D(1)"
+  itemPrice: 15
 --- !u!1 &921148285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4449,7 +4532,7 @@ GameObject:
   - component: {fileID: 978296887}
   - component: {fileID: 978296886}
   - component: {fileID: 978296885}
-  - component: {fileID: 978296884}
+  - component: {fileID: 978296888}
   m_Layer: 5
   m_Name: "\u9A45\u87F2\u85E5"
   m_TagString: Untagged
@@ -4477,18 +4560,6 @@ RectTransform:
   m_AnchoredPosition: {x: -1.7397, y: 14.509}
   m_SizeDelta: {x: 63.96, y: 80.8976}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &978296884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 978296882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &978296885
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4532,7 +4603,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 978296886}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 978296888}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &978296886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4571,6 +4654,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 978296882}
   m_CullTransparentMesh: 1
+--- !u!114 &978296888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978296882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u9A45\u87F2\u85E5"
+  itemPrice: 300
 --- !u!1 &1120487733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4782,7 +4879,7 @@ GameObject:
   - component: {fileID: 1136523813}
   - component: {fileID: 1136523812}
   - component: {fileID: 1136523811}
-  - component: {fileID: 1136523810}
+  - component: {fileID: 1136523814}
   m_Layer: 5
   m_Name: "\u5FC3\u7D72\u87F2\u85E5"
   m_TagString: Untagged
@@ -4810,18 +4907,6 @@ RectTransform:
   m_AnchoredPosition: {x: -153.8724, y: 15.2531}
   m_SizeDelta: {x: 92.7961, y: 79.4103}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1136523810
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1136523808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1136523811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4865,7 +4950,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1136523812}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1136523814}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1136523812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4904,6 +5001,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136523808}
   m_CullTransparentMesh: 1
+--- !u!114 &1136523814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136523808}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u5FC3\u7D72\u87F2\u85E5"
+  itemPrice: 125
 --- !u!1 &1142849244
 GameObject:
   m_ObjectHideFlags: 0
@@ -5130,7 +5241,7 @@ GameObject:
   - component: {fileID: 1200151070}
   - component: {fileID: 1200151069}
   - component: {fileID: 1200151068}
-  - component: {fileID: 1200151067}
+  - component: {fileID: 1200151071}
   m_Layer: 5
   m_Name: "\u72D7\u7F50\u982D(2)"
   m_TagString: Untagged
@@ -5158,18 +5269,6 @@ RectTransform:
   m_AnchoredPosition: {x: -91, y: 9.851}
   m_SizeDelta: {x: 82.414, y: 99.2037}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1200151067
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1200151065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1200151068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5213,7 +5312,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1200151069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1200151071}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1200151069
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5252,6 +5363,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1200151065}
   m_CullTransparentMesh: 1
+--- !u!114 &1200151071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200151065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u72D7\u7F50\u982D(2)"
+  itemPrice: 30
 --- !u!1 &1269938370
 GameObject:
   m_ObjectHideFlags: 0
@@ -5996,7 +6121,7 @@ GameObject:
   - component: {fileID: 1364778915}
   - component: {fileID: 1364778914}
   - component: {fileID: 1364778913}
-  - component: {fileID: 1364778912}
+  - component: {fileID: 1364778916}
   m_Layer: 5
   m_Name: "\u72D7\u98FC\u6599(1)"
   m_TagString: Untagged
@@ -6024,18 +6149,6 @@ RectTransform:
   m_AnchoredPosition: {x: 78, y: 10.937}
   m_SizeDelta: {x: 88.9788, y: 97.032}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1364778912
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364778910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1364778913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6079,7 +6192,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1364778914}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1364778916}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1364778914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6118,6 +6243,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1364778910}
   m_CullTransparentMesh: 1
+--- !u!114 &1364778916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364778910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u72D7\u98FC\u6599(1)"
+  itemPrice: 15
 --- !u!1 &1409187222
 GameObject:
   m_ObjectHideFlags: 0
@@ -6281,6 +6420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1442042264}
+  - component: {fileID: 1442042265}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -6303,6 +6443,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1442042265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442042263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e30f4fd0acc501f4fa569aca139ad59e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shoppingCartData: {fileID: 11400000, guid: 1f5e8f47ce824d24a80049beef3b7893, type: 2}
 --- !u!1 &1454847798
 GameObject:
   m_ObjectHideFlags: 0
@@ -6745,7 +6898,7 @@ GameObject:
   - component: {fileID: 1587580531}
   - component: {fileID: 1587580530}
   - component: {fileID: 1587580529}
-  - component: {fileID: 1587580528}
+  - component: {fileID: 1587580532}
   m_Layer: 5
   m_Name: "\u72D7\u98FC\u6599(2)"
   m_TagString: Untagged
@@ -6773,18 +6926,6 @@ RectTransform:
   m_AnchoredPosition: {x: 246, y: 11.971}
   m_SizeDelta: {x: 74.1479, y: 94.9645}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1587580528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1587580526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1587580529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6828,7 +6969,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1587580530}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1587580532}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1587580530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6867,6 +7020,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1587580526}
   m_CullTransparentMesh: 1
+--- !u!114 &1587580532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1587580526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u72D7\u98FC\u6599(2)"
+  itemPrice: 30
 --- !u!1 &1591033425
 GameObject:
   m_ObjectHideFlags: 0
@@ -8085,7 +8252,7 @@ GameObject:
   - component: {fileID: 1778189565}
   - component: {fileID: 1778189564}
   - component: {fileID: 1778189563}
-  - component: {fileID: 1778189562}
+  - component: {fileID: 1778189566}
   m_Layer: 5
   m_Name: "\u7403"
   m_TagString: Untagged
@@ -8113,18 +8280,6 @@ RectTransform:
   m_AnchoredPosition: {x: -78, y: 11}
   m_SizeDelta: {x: 84.3266, y: 85.5553}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1778189562
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778189560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb71e1badab7fc446b6d4147abe03c45, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1778189563
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8168,7 +8323,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1778189564}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1778189566}
+        m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
+        m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1778189564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8207,6 +8374,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1778189560}
   m_CullTransparentMesh: 1
+--- !u!114 &1778189566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778189560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: "\u7403"
+  itemPrice: 10
 --- !u!1 &1794869195
 GameObject:
   m_ObjectHideFlags: 0
