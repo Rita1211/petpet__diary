@@ -182,6 +182,10 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("cost");
     }
+    public void Switchcost_2()
+    {
+        SceneManager.LoadScene("cost_2");
+    }
 
 
 }
