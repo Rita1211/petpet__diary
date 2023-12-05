@@ -897,7 +897,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -133, y: 156}
+  m_AnchoredPosition: {x: -241, y: 154}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1056470288
@@ -1178,7 +1178,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 10, y: -194}
+  m_AnchoredPosition: {x: 18, y: -146}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1511893649
@@ -1201,7 +1201,7 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 500, y: 100}
+  m_CellSize: {x: 600, y: 150}
   m_Spacing: {x: 0, y: 20}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -1275,7 +1275,7 @@ MonoBehaviour:
   dog1Image: {fileID: 2800000, guid: 203647e765f12c140b72d431452b41c4, type: 3}
   dog2Image: {fileID: 2800000, guid: c2a400d5c87a770428d61873b0f3732d, type: 3}
   dog3Image: {fileID: 2800000, guid: c4b13b7c68c7e7b44816984c1df4d5f7, type: 3}
-  cat1Image: {fileID: 2800000, guid: a2614d0627e34384da46bc78a443f220, type: 3}
+  cat1Image: {fileID: 2800000, guid: db551537ca4bb214d867a93a477f6155, type: 3}
   cat2Image: {fileID: 2800000, guid: 1fa0608fc0fa4074bbe983c5e6de4c7d, type: 3}
   cat3Image: {fileID: 2800000, guid: 933fb08e920edc047bace428bcff9a2a, type: 3}
 --- !u!1 &1582321367
@@ -1316,10 +1316,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u7378\u91AB"
+  m_text: "\u6676\u7247"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fc7fb162d5d8e5f4ca1c40b02b5d735b, type: 2}
-  m_sharedMaterial: {fileID: -8749202943054832805, guid: fc7fb162d5d8e5f4ca1c40b02b5d735b,
+  m_fontAsset: {fileID: 11400000, guid: 2708b344c8699c947a294c931db2582a, type: 2}
+  m_sharedMaterial: {fileID: -3920230264259725376, guid: 2708b344c8699c947a294c931db2582a,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1524,12 +1524,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f8b0fc85147f50489197e95f3fd99af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogDataFile: {fileID: 4900000, guid: c44f968498c172444a94f9426dc5eefd, type: 3}
+  dialogDataFile: {fileID: 4900000, guid: a2791cf974887fd43bb06ce17d74ba3d, type: 3}
   nameText: {fileID: 1056470289}
   dialogText: {fileID: 1582321368}
   dialogIndex: 0
   nextBTN: {fileID: 1959064143}
-  optionBTN: {fileID: 3867602456088902001, guid: efc5a0d64bc5f024c9ab019150a9e05c,
+  optionBTN: {fileID: 3727981502840825026, guid: 54c6eeac49cefdb4a95c910fe2ae51c3,
     type: 3}
   buttonGroup: {fileID: 1511893648}
   ch1: {fileID: 321276197}
@@ -1991,7 +1991,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6144fff3eabad314e97f873c75051ca7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8987d53f0d5b38843b290343653aa116, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
