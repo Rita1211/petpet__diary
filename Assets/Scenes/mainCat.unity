@@ -235,7 +235,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1317929318}
         m_TargetAssemblyTypeName: HealthChange, Assembly-CSharp
-        m_MethodName: minus
+        m_MethodName: add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2885,7 +2885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: {fileID: 374482386}
-  hp: 60
+  hp: 30
   maxHp: 100
 --- !u!1 &719497114
 GameObject:
@@ -3080,7 +3080,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 713864499}
         m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
-        m_MethodName: errToy
+        m_MethodName: add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3305,6 +3305,18 @@ MonoBehaviour:
       - m_Target: {fileID: 874090896}
         m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
         m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1929957294}
+        m_TargetAssemblyTypeName: FoodC, Assembly-CSharp
+        m_MethodName: add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4689,6 +4701,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 713864499}
+        m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
+        m_MethodName: add
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1231403255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4837,8 +4861,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1929957293}
-        m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
+      - m_Target: {fileID: 1929957294}
+        m_TargetAssemblyTypeName: FoodC, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
         m_Arguments:
@@ -6479,6 +6503,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 713864499}
+        m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
+        m_MethodName: add
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1706801964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7054,21 +7090,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1317929318}
-        m_TargetAssemblyTypeName: HealthChange, Assembly-CSharp
-        m_MethodName: errFood
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 1929957293}
         m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
-        m_MethodName: errFood
+        m_MethodName: add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7222,6 +7246,7 @@ GameObject:
   - component: {fileID: 1929957292}
   - component: {fileID: 1929957291}
   - component: {fileID: 1929957293}
+  - component: {fileID: 1929957294}
   m_Layer: 5
   m_Name: "\u98E2\u9913\u503C"
   m_TagString: Untagged
@@ -7301,7 +7326,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: {fileID: 342996260}
-  hp: 40
+  hp: 20
+  maxHp: 100
+--- !u!114 &1929957294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929957288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2261d192a23bc264ba073ae13827f255, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blood: {fileID: 342996260}
+  hp: 20
   maxHp: 100
 --- !u!1 &1935128003
 GameObject:
@@ -8562,6 +8602,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2141585331}
         m_TargetAssemblyTypeName: shoppingCartButton, Assembly-CSharp
         m_MethodName: AddItemToCart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1929957293}
+        m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
+        m_MethodName: add
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
