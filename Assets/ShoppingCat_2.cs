@@ -1,10 +1,9 @@
 using UnityEngine;
 
 
-public class shoppingCart : MonoBehaviour
+public class shoppingCat_2 : MonoBehaviour
 {
-    public shoppingCartData shoppingCartData = new shoppingCartData();
-    //public shoppingCartData shoppingCartData;
+    public shoppingCartData shoppingCartData;
 
     public void AddToCart(string itemName, float price)
     {
