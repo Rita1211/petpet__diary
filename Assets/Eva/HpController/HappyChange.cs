@@ -27,7 +27,7 @@ public class HappyChange : MonoBehaviour
         if (hp>=maxHp){
             hp=maxHp;
         }else{
-            hp+=50;
+            hp+=20;
         }
         countHp();
     }

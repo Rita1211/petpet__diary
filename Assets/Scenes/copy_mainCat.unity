@@ -1427,7 +1427,6 @@ GameObject:
   m_Component:
   - component: {fileID: 385847151}
   - component: {fileID: 385847150}
-  - component: {fileID: 385847149}
   - component: {fileID: 385847155}
   m_Layer: 0
   m_Name: Main Camera
@@ -1436,14 +1435,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &385847149
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 385847148}
-  m_Enabled: 1
 --- !u!20 &385847150
 Camera:
   m_ObjectHideFlags: 0
@@ -2690,7 +2681,6 @@ GameObject:
   - component: {fileID: 1090402604}
   - component: {fileID: 1090402603}
   - component: {fileID: 1090402602}
-  - component: {fileID: 1090402601}
   m_Layer: 5
   m_Name: ARswitch
   m_TagString: Untagged
@@ -2718,18 +2708,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80, y: -80}
   m_SizeDelta: {x: 111.934204, y: 83.22919}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1090402601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090402599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7020a85ea5d37cc489ca681c72638b02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1090402602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2789,18 +2767,6 @@ MonoBehaviour:
       - m_Target: {fileID: 1173006128}
         m_TargetAssemblyTypeName: ARisOFF, Assembly-CSharp
         m_MethodName: BGAppear
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: openAR, Assembly-CSharp
-        m_MethodName: ClicktoOpen
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5264,7 +5230,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1935128004
 RectTransform:
   m_ObjectHideFlags: 0

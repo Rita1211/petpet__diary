@@ -140,7 +140,7 @@ public class DialogManager : MonoBehaviour
 
     public void OptionEffect(string _effect)
     {
-        if (_effect=="基本健檢完成")
+        if (_effect=="基礎健檢完成")
         {
             ch1.gameObject.SetActive(true);
         }

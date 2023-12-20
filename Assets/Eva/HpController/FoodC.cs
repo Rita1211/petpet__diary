@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class FoodChange : MonoBehaviour
+public class FoodC : MonoBehaviour
 {
     [SerializeField] RectTransform blood;
     public float hp,maxHp;
@@ -27,7 +27,7 @@ public class FoodChange : MonoBehaviour
         if (hp>=maxHp){
             hp=maxHp;
         }else{
-            hp+=25;
+            hp+=30;
         }
         countHp();
     }
