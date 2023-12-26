@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -772,8 +772,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u6F54\u7259\u9AA8"
-  itemPrice: 30
 --- !u!1 &268853983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,8 +1957,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u9B5A\u6CB9"
-  itemPrice: 25
 --- !u!1 &462766792
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,8 +2115,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8089\u4E7E"
-  itemPrice: 15
 --- !u!1 &497147616
 GameObject:
   m_ObjectHideFlags: 0
@@ -3073,8 +3067,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u5A03\u5A03"
-  itemPrice: 10
 --- !u!1 &620494558
 GameObject:
   m_ObjectHideFlags: 0
@@ -3945,8 +3937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u72D7\u7F50\u982D(1)"
-  itemPrice: 15
 --- !u!1 &921148285
 GameObject:
   m_ObjectHideFlags: 0
@@ -4341,8 +4331,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u9A45\u87F2\u85E5"
-  itemPrice: 300
 --- !u!1 &1120487733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4622,8 +4610,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u5FC3\u7D72\u87F2\u85E5"
-  itemPrice: 125
 --- !u!1 &1162295918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4918,8 +4904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u72D7\u7F50\u982D(2)"
-  itemPrice: 30
 --- !u!1 &1269938370
 GameObject:
   m_ObjectHideFlags: 0
@@ -5810,8 +5794,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u72D7\u98FC\u6599(1)"
-  itemPrice: 15
 --- !u!1 &1409187222
 GameObject:
   m_ObjectHideFlags: 0
@@ -5932,7 +5914,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e30f4fd0acc501f4fa569aca139ad59e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shoppingCartData: {fileID: 11400000, guid: 1f5e8f47ce824d24a80049beef3b7893, type: 2}
 --- !u!1 &1454847798
 GameObject:
   m_ObjectHideFlags: 0
@@ -6328,6 +6309,7 @@ MonoBehaviour:
   cat1Image: {fileID: 2800000, guid: abac2fd9bb7cb6b4e8dbe5f60103010b, type: 3}
   cat2Image: {fileID: 2800000, guid: 061fb18532afb934c87242162a904859, type: 3}
   cat3Image: {fileID: 2800000, guid: e036c1ba909ab474b9b9c687661f27c9, type: 3}
+  CatorDog: 1
 --- !u!4 &1577105161
 Transform:
   m_ObjectHideFlags: 0
@@ -6363,6 +6345,7 @@ MonoBehaviour:
   cat1Image: {fileID: 2800000, guid: abbaeb2d851144c4ca4e2f45540f0c78, type: 3}
   cat2Image: {fileID: 2800000, guid: dae6694de75d89b45b6624a69019de3f, type: 3}
   cat3Image: {fileID: 2800000, guid: a4852cff3e72a7e4fac63ae8e44798d6, type: 3}
+  CatorDog: 1
 --- !u!1 &1587580526
 GameObject:
   m_ObjectHideFlags: 0
@@ -6521,8 +6504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u72D7\u98FC\u6599(2)"
-  itemPrice: 30
 --- !u!1 &1613382993
 GameObject:
   m_ObjectHideFlags: 0
@@ -7430,8 +7411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u7403"
-  itemPrice: 10
 --- !u!1 &1794869195
 GameObject:
   m_ObjectHideFlags: 0
@@ -8038,7 +8017,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935128004
 RectTransform:
   m_ObjectHideFlags: 0

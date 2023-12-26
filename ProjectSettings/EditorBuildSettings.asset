@@ -26,7 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cost_2.unity
     guid: ec7a30439d562e54792acdd506d360fa
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/cost.unity
     guid: 16e3ca13f226e3640ab214bb9804ef9c
   - enabled: 1
@@ -50,6 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/camera.unity
     guid: 0f8e64f9423de8640882c73fdd7d6457
+  - enabled: 1
+    path: Assets/Scenes/mainCat2.unity
+    guid: 8d717ae1ac0553b4192e02866a89e424
+  - enabled: 1
+    path: Assets/Scenes/mainDog2.unity
+    guid: b0c739002c5f9d7448ce974db60bfebf
   m_configObjects:
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: dc15ce33f4470e74b84ecfbae424a42b,
       type: 2}

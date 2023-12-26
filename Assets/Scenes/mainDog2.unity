@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6940,7 +6940,6 @@ GameObject:
   - component: {fileID: 1312315031}
   - component: {fileID: 1312315030}
   - component: {fileID: 1312315029}
-  - component: {fileID: 1312315028}
   m_Layer: 5
   m_Name: ARswitch
   m_TagString: Untagged
@@ -6968,18 +6967,6 @@ RectTransform:
   m_AnchoredPosition: {x: -80, y: -80}
   m_SizeDelta: {x: 111.934204, y: 83.22919}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1312315028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312315026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7020a85ea5d37cc489ca681c72638b02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1312315029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9382,7 +9369,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246098354}
+      - m_Target: {fileID: 1040026714}
         m_TargetAssemblyTypeName: AppearBag, Assembly-CSharp
         m_MethodName: Click
         m_Mode: 1
@@ -10318,7 +10305,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1935128004
 RectTransform:
   m_ObjectHideFlags: 0

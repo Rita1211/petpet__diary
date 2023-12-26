@@ -1320,8 +1320,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u6676\u7247"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 54fa8704064024e44945fc7c831fcf07, type: 2}
-  m_sharedMaterial: {fileID: 4924302699094431617, guid: 54fa8704064024e44945fc7c831fcf07,
+  m_fontAsset: {fileID: 11400000, guid: fc7fb162d5d8e5f4ca1c40b02b5d735b, type: 2}
+  m_sharedMaterial: {fileID: -8749202943054832805, guid: fc7fb162d5d8e5f4ca1c40b02b5d735b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
