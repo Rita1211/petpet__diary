@@ -11,6 +11,8 @@ public class DialogManager : MonoBehaviour
     /// 對話文本文件 csv格式
     /// </summary>
     public TextAsset dialogDataFile;
+    public TextAsset dialogDataFile_dog;
+    public AnimalSelection animalSelection;
     public TMP_Text nameText;
     public TMP_Text dialogText;
 
@@ -31,7 +33,13 @@ public class DialogManager : MonoBehaviour
 
     void Start()
     {
-        ReadText(dialogDataFile);
+       bool _catOrdog =CatorDog();
+        if (_catOrdog==true){
+            ReadText(dialogDataFile);
+        }else{
+            ReadText(dialogDataFile_dog);
+        }
+        //ReadText(dialogDataFile);
         ShowDialogRow();
         //UpdateText("獸醫","");
         ch1.gameObject.SetActive(false);
@@ -61,6 +69,38 @@ public class DialogManager : MonoBehaviour
         {
             //對話框底為深色底 自己 並出現選項
         }
+    }
+     bool CatorDog ()
+    {
+        string selectedAnimal = PlayerPrefs.GetString("SelectedAnimal", ""); 
+
+        bool rlt=true;
+        switch (selectedAnimal)
+        {           
+            case "dog1":
+                rlt=false;
+                break;
+            case "dog2":
+                rlt=false;
+                break;
+            case "dog3":
+                rlt=false;
+                break;
+            case "cat1":
+                rlt=true;
+                break;
+            case "cat2":
+                rlt=true;
+                break;
+            case "cat3":
+                rlt=true;
+                break;
+            default:
+                Debug.LogError("Invalid or no selected animal: " + selectedAnimal);
+                break;
+            
+        }
+        return rlt;
     }
     public void ReadText(TextAsset _textAsset)
     {

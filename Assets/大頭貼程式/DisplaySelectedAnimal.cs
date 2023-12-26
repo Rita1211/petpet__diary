@@ -14,6 +14,7 @@ public class DisplaySelectedAnimal : MonoBehaviour
     public Texture2D cat1Image;
     public Texture2D cat2Image;
     public Texture2D cat3Image;
+    public bool CatorDog=true;
 
 
 
@@ -26,21 +27,27 @@ public class DisplaySelectedAnimal : MonoBehaviour
         {
             case "dog1":
                 animalImage.texture = dog1Image;
+                CatorDog=false;
                 break;
             case "dog2":
                 animalImage.texture = dog2Image;
+                CatorDog=false;
                 break;
             case "dog3":
                 animalImage.texture = dog3Image;
+                CatorDog=false;
                 break;
             case "cat1":
                 animalImage.texture = cat1Image;
+                CatorDog=true;
                 break;
             case "cat2":
                 animalImage.texture = cat2Image;
+                CatorDog=true;
                 break;
             case "cat3":
                 animalImage.texture = cat3Image;
+                CatorDog=true;
                 break;
             default:
                 Debug.LogError("Invalid or no selected animal: " + selectedAnimal);
