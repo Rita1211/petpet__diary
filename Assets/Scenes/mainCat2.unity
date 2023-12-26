@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1921,7 +1921,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 385847148}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &385847150
 Camera:
   m_ObjectHideFlags: 0
@@ -1943,8 +1943,8 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 1440
+    height: 3040
   near clip plane: 200
   far clip plane: 20000
   field of view: 4.090817
@@ -3073,6 +3073,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\u72D7\u4E3B\u756B\u9762"
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ec9efde7dd0ccd44a8b3e0fdb3ef4da3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec9efde7dd0ccd44a8b3e0fdb3ef4da3, type: 3}
@@ -4938,7 +4943,6 @@ GameObject:
   - component: {fileID: 1090402604}
   - component: {fileID: 1090402603}
   - component: {fileID: 1090402602}
-  - component: {fileID: 1090402601}
   m_Layer: 5
   m_Name: ARswitch
   m_TagString: Untagged
@@ -4966,18 +4970,6 @@ RectTransform:
   m_AnchoredPosition: {x: 1972, y: -80}
   m_SizeDelta: {x: 111.934204, y: 83.22919}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1090402601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1090402599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7020a85ea5d37cc489ca681c72638b02, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1090402602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6964,6 +6956,7 @@ MonoBehaviour:
   cat1Image: {fileID: 2800000, guid: abac2fd9bb7cb6b4e8dbe5f60103010b, type: 3}
   cat2Image: {fileID: 2800000, guid: 061fb18532afb934c87242162a904859, type: 3}
   cat3Image: {fileID: 2800000, guid: e036c1ba909ab474b9b9c687661f27c9, type: 3}
+  CatorDog: 1
 --- !u!4 &1577105161
 Transform:
   m_ObjectHideFlags: 0
@@ -6999,6 +6992,7 @@ MonoBehaviour:
   cat1Image: {fileID: 2800000, guid: a2614d0627e34384da46bc78a443f220, type: 3}
   cat2Image: {fileID: 2800000, guid: 1fa0608fc0fa4074bbe983c5e6de4c7d, type: 3}
   cat3Image: {fileID: 2800000, guid: 933fb08e920edc047bace428bcff9a2a, type: 3}
+  CatorDog: 1
 --- !u!1 &1591033425
 GameObject:
   m_ObjectHideFlags: 0
