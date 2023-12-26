@@ -2495,7 +2495,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1317929318}
         m_TargetAssemblyTypeName: HealthChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -3590,7 +3590,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1317929318}
         m_TargetAssemblyTypeName: HealthChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: {fileID: 374482386}
-  hp: 60
+  hp: 40
   maxHp: 100
 --- !u!1 &719497114
 GameObject:
@@ -4650,7 +4650,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1929957293}
         m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -5574,8 +5574,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FoodC, Assembly-CSharp
+      - m_Target: {fileID: 1929957293}
+        m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
         m_Arguments:
@@ -6240,7 +6240,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 713864499}
         m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -7947,7 +7947,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 713864499}
         m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -8948,7 +8948,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 713864499}
         m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -9183,7 +9183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   blood: {fileID: 342996260}
-  hp: 40
+  hp: 20
   maxHp: 100
 --- !u!1 &1935128003
 GameObject:
@@ -9204,7 +9204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1935128004
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9398,8 +9398,8 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FoodC, Assembly-CSharp
+      - m_Target: {fileID: 1929957293}
+        m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
         m_Arguments:
@@ -9795,7 +9795,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1929957293}
         m_TargetAssemblyTypeName: FoodChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1
@@ -10091,7 +10091,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 713864499}
         m_TargetAssemblyTypeName: HappyChange, Assembly-CSharp
         m_MethodName: add
         m_Mode: 1

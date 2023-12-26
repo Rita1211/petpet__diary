@@ -186,6 +186,14 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("cost_2");
     }
+    public void SwitchmainCat2()
+    {
+        SceneManager.LoadScene("mainCat2");
+    }
+    public void SwitchmainDog2()
+    {
+        SceneManager.LoadScene("mainDog2");
+    }
 
 
 }

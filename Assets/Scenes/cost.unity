@@ -909,13 +909,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 687821878}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb7e7b26bdcfeee4aa1157a884fe16b4, type: 3}
+  m_Script: {fileID: 11500000, guid: e19666df9ab44474ab9a03c679411dde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   billText: {fileID: 467399745}
   itemText: {fileID: 1968115810}
   totalAmountText: {fileID: 1579559820}
-  shoppingCartData: {fileID: 11400000, guid: 1f5e8f47ce824d24a80049beef3b7893, type: 2}
+  shoppingCartData: {fileID: 11400000, guid: c57d8985e137cb044bb35e297899af87, type: 2}
 --- !u!1 &743822997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1012,6 +1012,7 @@ GameObject:
   - component: {fileID: 947626103}
   - component: {fileID: 947626102}
   - component: {fileID: 947626101}
+  - component: {fileID: 947626104}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1082,7 +1083,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 947626102}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 947626104}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchmainDog2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &947626102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1134,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 947626099}
   m_CullTransparentMesh: 1
+--- !u!114 &947626104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947626099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1026987037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,6 +1375,7 @@ GameObject:
   - component: {fileID: 1406580000}
   - component: {fileID: 1406579999}
   - component: {fileID: 1406579998}
+  - component: {fileID: 1406580001}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1421,7 +1447,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1406579999}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1406580001}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchmainDog2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1406579999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,6 +1498,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1406579996}
   m_CullTransparentMesh: 1
+--- !u!114 &1406580001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406579996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1490983965
 GameObject:
   m_ObjectHideFlags: 0

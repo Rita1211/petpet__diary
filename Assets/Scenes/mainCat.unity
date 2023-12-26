@@ -175,8 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u9A45\u87F2\u85E5"
-  itemPrice: 300
 --- !u!114 &78317951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3020,8 +3018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u8DF3\u53F0"
-  itemPrice: 20
 --- !u!114 &805114970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3256,8 +3252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u7F50\u982D(2)"
-  itemPrice: 30
 --- !u!114 &874090897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3631,8 +3625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u9017\u8C93\u68D2"
-  itemPrice: 10
 --- !u!114 &929481664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4642,8 +4634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8089\u6CE5"
-  itemPrice: 15
 --- !u!114 &1231403254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4802,8 +4792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u7F50\u982D(1)"
-  itemPrice: 15
 --- !u!114 &1235909092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6444,8 +6432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u8349"
-  itemPrice: 50
 --- !u!114 &1706801963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7031,8 +7017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u98FC\u6599(1)"
-  itemPrice: 15
 --- !u!114 &1870956508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8392,8 +8376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u9B5A\u6CB9"
-  itemPrice: 25
 --- !u!114 &2138140547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8552,8 +8534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c60a2aef12c5095409cb5d29f8a08cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: "\u8C93\u98FC\u6599(2)"
-  itemPrice: 30
 --- !u!114 &2141585332
 MonoBehaviour:
   m_ObjectHideFlags: 0
