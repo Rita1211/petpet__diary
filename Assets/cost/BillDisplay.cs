@@ -2,12 +2,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class billDisplay : MonoBehaviour
+public class BillDisplay : MonoBehaviour
 {
     public TextMeshProUGUI billText;
     public TextMeshProUGUI itemText;
     public TextMeshProUGUI totalAmountText;
-    public shoppingCartData shoppingCartData;
+    public ShoppingCartData shoppingCartData;
 
     void Start()
     {

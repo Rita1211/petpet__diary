@@ -1,8 +1,8 @@
 using UnityEngine;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "shoppingCartData", menuName = "ScriptableObjects/shoppingCartData", order = 1)]
-public class shoppingCartData : ScriptableObject
+[CreateAssetMenu(fileName = "ShoppingCartData", menuName = "ScriptableObjects/ShoppingCartData", order = 1)]
+public class ShoppingCartData : ScriptableObject
 {
     public class CartItem
     {

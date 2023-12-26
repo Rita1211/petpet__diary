@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shoppingCartButton : MonoBehaviour
+public class ShoppingCartButton : MonoBehaviour
 {
     public string itemName;
     public float itemPrice;
 
     public void AddItemToCart()
     {
-        FindObjectOfType<shoppingCart>().AddToCart(itemName, itemPrice);
+        FindObjectOfType<ShoppingCart>().AddToCart(itemName, itemPrice);
     }
 }

@@ -1,13 +1,13 @@
 using UnityEngine;
 
 
-public class shoppingCat_2 : MonoBehaviour
+public class ShoppingCart : MonoBehaviour
 {
-    public shoppingCartData shoppingCartData;
+    public ShoppingCartData shoppingCartData;
 
     public void AddToCart(string itemName, float price)
     {
-        shoppingCartData.CartItem existingItem = shoppingCartData.items.Find(item => item.itemName == itemName);
+        ShoppingCartData.CartItem existingItem = shoppingCartData.items.Find(item => item.itemName == itemName);
 
         if (existingItem != null)
         {
@@ -15,7 +15,7 @@ public class shoppingCat_2 : MonoBehaviour
         }
         else
         {
-            shoppingCartData.CartItem newItem = new shoppingCartData.CartItem
+            ShoppingCartData.CartItem newItem = new ShoppingCartData.CartItem
             {
                 itemName = itemName,
                 quantity = 1,
