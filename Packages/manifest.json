@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "com.huggingface.api": "file:D:/下載D/unity-api-main",
     "com.unity.cinemachine": "2.8.9",
     "com.unity.collab-proxy": "2.0.1",
     "com.unity.feature.ar": "1.0.0",

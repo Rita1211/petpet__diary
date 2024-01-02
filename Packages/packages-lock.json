@@ -1,14 +1,5 @@
 {
   "dependencies": {
-    "com.huggingface.api": {
-      "version": "file:D:/下載D/unity-api-main",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.textmeshpro": "3.0.6",
-        "com.unity.nuget.newtonsoft-json": "3.0.1"
-      }
-    },
     "com.unity.cinemachine": {
       "version": "2.8.9",
       "depth": 0,
@@ -108,13 +99,6 @@
         "com.unity.editorcoroutines": "1.0.0",
         "com.unity.settings-manager": "1.0.3"
       },
-      "url": "https://packages.unity.com"
-    },
-    "com.unity.nuget.newtonsoft-json": {
-      "version": "3.0.2",
-      "depth": 1,
-      "source": "registry",
-      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.performance.profile-analyzer": {
