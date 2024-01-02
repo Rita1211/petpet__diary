@@ -53,6 +53,10 @@ public class SceneLoad : MonoBehaviour
   {
     SceneManager.LoadScene("testMain");
   }
+  public void LoadHospital()
+  {
+    SceneManager.LoadScene("Hospital");
+  }
  /* public void LoadSceneAR()
   {
     SceneManager.LoadScene("SampleScene");

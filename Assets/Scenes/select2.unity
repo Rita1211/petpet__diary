@@ -779,7 +779,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1809922596}
         m_TargetAssemblyTypeName: SceneLoad, Assembly-CSharp
-        m_MethodName: LoadSceneDog0
+        m_MethodName: LoadHospital
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

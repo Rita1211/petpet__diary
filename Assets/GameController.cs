@@ -195,5 +195,22 @@ public class GameController : MonoBehaviour
         SceneManager.LoadScene("mainDog2");
     }
 
+    public void SwitchDogknowledge()
+    {
+        SceneManager.LoadScene("Dogknowledge");
+    }
+    public void SwitchCatknowledge()
+    {
+        SceneManager.LoadScene("Catknowledge");
+    }
+     public void SwitchTestCat()
+    {
+        SceneManager.LoadScene("TestCat");
+    }
+    public void SwitchTestDog()
+    {
+        SceneManager.LoadScene("TestDog");
+    }
+
 
 }
