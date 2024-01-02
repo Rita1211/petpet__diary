@@ -4809,6 +4809,7 @@ GameObject:
   - component: {fileID: 789224513}
   - component: {fileID: 789224512}
   - component: {fileID: 789224511}
+  - component: {fileID: 789224514}
   m_Layer: 5
   m_Name: test
   m_TagString: Untagged
@@ -4879,7 +4880,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 789224512}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 789224514}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchTestDog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &789224512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4918,6 +4931,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789224509}
   m_CullTransparentMesh: 1
+--- !u!114 &789224514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789224509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e473dfd33887a894d931d87673652d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &805181647
 GameObject:
   m_ObjectHideFlags: 0
