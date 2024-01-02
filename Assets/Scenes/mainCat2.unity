@@ -9657,7 +9657,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 882843196}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: Switchknowledge
+        m_MethodName: SwitchCatknowledge
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
