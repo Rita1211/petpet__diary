@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class DialogManager : MonoBehaviour
 {
@@ -133,6 +135,7 @@ public class DialogManager : MonoBehaviour
            {
                 Debug.Log("劇情結束");
                 //頁面跳轉
+                SceneManager.LoadScene("mainCat2");
            }
         }
         

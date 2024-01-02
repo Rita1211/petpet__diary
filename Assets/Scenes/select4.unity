@@ -1145,7 +1145,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 763525830}
         m_TargetAssemblyTypeName: SceneLoad, Assembly-CSharp
-        m_MethodName: LoadSceneCat1
+        m_MethodName: LoadHospital
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
