@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -877,8 +877,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7793c0503eff1014ca9994f61af9a2a5, type: 2}
-  m_sharedMaterial: {fileID: -4830614795490734507, guid: 7793c0503eff1014ca9994f61af9a2a5,
+  m_fontAsset: {fileID: 11400000, guid: af9df7df8474d8e47b7ff48bec35c0b9, type: 2}
+  m_sharedMaterial: {fileID: 2625369085584801666, guid: af9df7df8474d8e47b7ff48bec35c0b9,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1753,7 +1753,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1743533149}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1743533151}
+        m_TargetAssemblyTypeName: GameController, Assembly-CSharp
+        m_MethodName: SwitchmainDog2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1743533149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1978,7 +1990,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1889487967}
         m_TargetAssemblyTypeName: GameController, Assembly-CSharp
-        m_MethodName: SwitchmainCat2
+        m_MethodName: SwitchmainDog2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

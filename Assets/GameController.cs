@@ -152,6 +152,10 @@ public class GameController : MonoBehaviour
     {
         SceneManager.LoadScene("camera");
     }
+    public void Switchcamera1()
+    {
+        SceneManager.LoadScene("camera1");
+    }
 
     public void Switchsetting()
     {
@@ -161,6 +165,10 @@ public class GameController : MonoBehaviour
     public void Switchphoto()
     {
         SceneManager.LoadScene("photo");
+    }
+    public void Switchphoto1()
+    {
+        SceneManager.LoadScene("photo1");
     }
 
     public void Switchready()

@@ -36,7 +36,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Catknowledge.unity
     guid: 278a7a676dbc28046a20db22ffccf6ae
   - enabled: 1
-    path: Assets/Scenes/photo 1.unity
+    path: Assets/Scenes/photo1.unity
     guid: 97291bd9d09e46642a658deddeaee0b5
   - enabled: 1
     path: Assets/Scenes/photo.unity
@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/bag_dog.unity
     guid: c07baa83321a7e9499c143f0f1730081
   - enabled: 1
-    path: Assets/Scenes/camera 1.unity
+    path: Assets/Scenes/camera1.unity
     guid: 29ade16202b67f7468f1a573395cb1b4
   - enabled: 1
     path: Assets/Scenes/camera.unity
