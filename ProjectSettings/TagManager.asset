@@ -6,6 +6,14 @@ TagManager:
   tags:
   - text
   - floor
+  - eat
+  - cabinet
+  - wall
+  - pillow
+  - table
+  - bed
+  - cat tree
+  - restroon
   layers:
   - Default
   - TransparentFX
