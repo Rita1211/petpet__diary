@@ -22,12 +22,12 @@ public class BillDisplay : MonoBehaviour
         string itemLine = $"{item.itemName} * {item.quantity}";
         itemText.text += $"{itemLine}\n";
 
-        string billLine = $"{item.price * item.quantity:C2}";
+        string billLine = $"{item.price * item.quantity:C2}".Replace("HK","$");
         billText.text += $"{billLine}\n";
     }
 
     // 將總金額顯示靠左，並且價格靠右
-    string totalAmountLine = $"{shoppingCartData.totalAmount:C2}";
+    string totalAmountLine = $"{shoppingCartData.totalAmount:C2}".Replace("HK","$");
     totalAmountText.text = $"{totalAmountLine}";
 }
 
